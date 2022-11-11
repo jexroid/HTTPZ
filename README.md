@@ -5,8 +5,8 @@ have a list of domains but don't know which one is live , which one is not ? HTT
 
 ## Features
 - listing the current directory
-- changing directory (SOON)
-- running OS commands (SOON)
+- changing directory (**SOON**)
+- running OS commands (**SOON**)
 
 ## Operating Systems Tested
 - Kali Linux 2022.3
