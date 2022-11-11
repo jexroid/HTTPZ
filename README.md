@@ -9,7 +9,7 @@ have a list of domains but don't know which one is live , which one is not ? HTT
 - running OS commands (**SOON**)
 
 ## Screenshot
-![httpz](httpz.png)
+![httpz](httpz.PNG)
 
 ## Operating Systems Tested
 - Kali Linux 2022.3
