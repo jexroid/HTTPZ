@@ -10,6 +10,8 @@ have a list of domains but don't know which one is live , which one is not ? HTT
 
 ## Video url : https://youtu.be/fAmgV3zESEQ
 
+
+
 ## Screenshot
 ![httpz](httpz.PNG)
 
