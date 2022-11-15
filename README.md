@@ -30,5 +30,5 @@ python3 webkiller.py
 
 ### Thanks to
     Mohammad Mehdi Jafari
-    Erfan Bagheri
+    Erfan Bagheri Avval
 
