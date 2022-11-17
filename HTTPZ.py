@@ -84,14 +84,14 @@ def is_There_http_in_file(entery):
 
 def main_work():
     urls = input(Fore.RED+"┌─["+Fore.LIGHTGREEN_EX+"HTTPZ"+Fore.BLUE+"~"+Fore.WHITE+f"{user}"+Fore.RED+"]-("+Fore.LIGHTCYAN_EX+f"{ROOT_DIR}"+Fore.RED+")\n└──╼ "+Fore.WHITE)
-    while True:    
-        if OS_commands_of_httpz(urls) == None:
-            urls = input(Fore.RED+"┌─["+Fore.LIGHTGREEN_EX+"HTTPZ"+Fore.BLUE+"~"+Fore.WHITE+f"{user}"+Fore.RED+"]-("+Fore.LIGHTCYAN_EX+f"{ROOT_DIR}"+Fore.RED+")\n└──╼ "+Fore.WHITE)
-            continue
+    while True:
         if OS_commands_of_httpz(urls) == True:
             pass
+            urls = input(Fore.RED+"┌─["+Fore.LIGHTGREEN_EX+"HTTPZ"+Fore.BLUE+"~"+Fore.WHITE+f"{user}"+Fore.RED+"]-("+Fore.LIGHTCYAN_EX+f"{ROOT_DIR}"+Fore.RED+")\n└──╼ "+Fore.WHITE)    
+        elif OS_commands_of_httpz(urls) == None:
             urls = input(Fore.RED+"┌─["+Fore.LIGHTGREEN_EX+"HTTPZ"+Fore.BLUE+"~"+Fore.WHITE+f"{user}"+Fore.RED+"]-("+Fore.LIGHTCYAN_EX+f"{ROOT_DIR}"+Fore.RED+")\n└──╼ "+Fore.WHITE)
-        if OS_commands_of_httpz(urls) == False:
+            continue
+        elif OS_commands_of_httpz(urls) == False:
             break
     
     ###/. IS THERE ANY ['] OR [""] IN URLS? ###
