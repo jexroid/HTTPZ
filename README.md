@@ -8,7 +8,7 @@ have a list of domains but don't know which one is live , which one is not ? HTT
 - changing directory (**SOON**)
 - running OS commands (**SOON**)
 
-## Video url : https://youtu.be/fAmgV3zESEQ
+## Video url : https://youtu.be/6shqT3EMaMk
 
 
 
